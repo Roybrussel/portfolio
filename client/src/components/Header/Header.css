@@ -1,0 +1,11 @@
+.header-container {
+    text-align: center;
+    height: 400px;
+    margin: 20px;
+    background: linear-gradient(to right, #f05454 50%, #30475e 50%)
+}
+
+.header-container h1 {
+    font-size: 6em;
+    color: #e8e8e8;
+}

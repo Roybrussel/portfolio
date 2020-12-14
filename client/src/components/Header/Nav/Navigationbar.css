@@ -1,0 +1,10 @@
+.navbar {
+    font-size: 1.4em;
+}
+
+.navlink:hover {
+    /* text-decoration: underline;
+    text-decoration-color: #222831; */
+    border-bottom: 3px solid #222831;
+    padding-bottom: 0;
+}

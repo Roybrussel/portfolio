@@ -1,0 +1,15 @@
+#about-section {
+    text-align: center;
+}
+
+.heading {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+hr {
+    height: 5px;
+    width: 20%;
+    border-radius: 25%;
+    background-color: #30475e;
+}
