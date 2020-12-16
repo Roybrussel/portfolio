@@ -16,8 +16,11 @@ hr {
     background-color: #30475e;
 }
 
-.about-content {
+.about-row {
     height: 100%;
+}
+
+.about-content {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -10,9 +10,9 @@ const About = () => {
         <hr />
       </div>
       <Container fluid className="about-container">
-        <Row>
-          <Col md={7}>
-            <div className="about-content">
+        <Row className="about-row">
+          <Col md={7} className="about-content">
+            <div>
               <div className="about-text">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

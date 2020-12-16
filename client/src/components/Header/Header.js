@@ -7,9 +7,9 @@ const Header = () => {
     <header>
       <Navigationbar />
       <div class="header-container">
-        <h1>ROY</h1>
-        <h1>ARNE</h1>
-        <h1>BRUSSEL</h1>
+        <h1 className="header-name">ROY</h1>
+        <h1 className="header-name">ARNE</h1>
+        <h1 className="header-name">BRUSSEL</h1>
       </div>
     </header>
   );
