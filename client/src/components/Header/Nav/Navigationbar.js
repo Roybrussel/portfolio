@@ -7,13 +7,13 @@ const Navigationbar = () => {
   return (
     <Navbar className="justify-content-center navbar">
       <Nav>
-        <Nav.Link href="#about" className="navlink">
+        <Nav.Link href="#about-section" className="navlink">
           About
         </Nav.Link>
-        <Nav.Link href="#projects" className="navlink">
+        <Nav.Link href="#projects-section" className="navlink">
           Projects
         </Nav.Link>
-        <Nav.Link href="#contact" className="navlink">
+        <Nav.Link href="#contact-section" className="navlink">
           Contact
         </Nav.Link>
       </Nav>
