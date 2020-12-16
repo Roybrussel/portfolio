@@ -1,5 +1,6 @@
 #about-section {
     text-align: center;
+    margin: 20px;
 }
 
 .heading {
@@ -12,4 +13,15 @@ hr {
     width: 20%;
     border-radius: 25%;
     background-color: #30475e;
+}
+
+.about-content-container {}
+
+.about-text {
+    text-align: justify;
+}
+
+.profile-img {
+    width: 80%;
+    filter: grayscale(100%);
 }
