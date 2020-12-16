@@ -37,3 +37,39 @@ hr {
     width: 80%;
     filter: grayscale(100%);
 }
+
+.fa-html5:hover {
+    color: #e34c26;
+}
+
+.fa-css3-alt:hover {
+    color: #264de4;
+}
+
+.fa-js:hover {
+    color: #f0db4f;
+}
+
+.fa-node:hover {
+    color: #3c873a;
+}
+
+.fa-react:hover {
+    color: #61DBFB;
+}
+
+.fa-sass:hover {
+    color: #cc6699;
+}
+
+.fa-linkedin:hover {
+    color: #0966C2;
+}
+
+.fa-github-square:hover {
+    color: #bd2c00;
+}
+
+.fa-envelope-square:hover {
+    color: #f05454;
+}

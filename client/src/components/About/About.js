@@ -44,9 +44,9 @@ const About = () => {
                   Connect <i class="fas fa-hashtag" />
                 </h3>
                 <p>
-                  <i class="fab fa-linkedin about-icon" />
-                  <i class="fab fa-github-square about-icon" />
-                  <i class="fas fa-envelope-square about-icon" />
+                  <i className="fab fa-linkedin about-icon" />
+                  <i className="fab fa-github-square about-icon" />
+                  <i className="fas fa-envelope-square about-icon" />
                 </p>
               </div>
             </div>
