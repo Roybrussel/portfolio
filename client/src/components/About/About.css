@@ -38,6 +38,11 @@ hr {
     filter: grayscale(100%);
 }
 
+.profile-img:hover {
+    width: 80%;
+    filter: none;
+}
+
 .fa-html5:hover {
     color: #e34c26;
 }

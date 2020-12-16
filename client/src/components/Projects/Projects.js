@@ -25,8 +25,10 @@ const Projects = () => {
                 experience that Norway has to offer. Get the most out of your
                 visit to Norway by booking exciting activities!
               </Card.Text>
-              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
+            <Card.Footer className="card-footer">
+              <Button className="readmore-btn">Read More</Button>
+            </Card.Footer>
           </Card>
           <Card className="project-card">
             <Card.Img
@@ -42,8 +44,10 @@ const Projects = () => {
                 creating a travel board. Find out what other users have been up
                 to through the discover page.
               </Card.Text>
-              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
+            <Card.Footer className="card-footer">
+              <Button className="readmore-btn">Read More</Button>
+            </Card.Footer>
           </Card>
           <Card className="project-card">
             <Card.Img
@@ -59,8 +63,10 @@ const Projects = () => {
                 social-distancing lockdown to reclaim what belongs to us. We're
                 counting on you!
               </Card.Text>
-              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
+            <Card.Footer className="card-footer">
+              <Button className="readmore-btn">Read More</Button>
+            </Card.Footer>
           </Card>
         </CardDeck>
       </Container>
