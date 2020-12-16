@@ -25,7 +25,7 @@ const Projects = () => {
                 experience that Norway has to offer. Get the most out of your
                 visit to Norway by booking exciting activities!
               </Card.Text>
-              <Button>Read More</Button>
+              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
           </Card>
           <Card className="project-card">
@@ -42,7 +42,7 @@ const Projects = () => {
                 creating a travel board. Find out what other users have been up
                 to through the discover page.
               </Card.Text>
-              <Button>Read More</Button>
+              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
           </Card>
           <Card className="project-card">
@@ -59,7 +59,7 @@ const Projects = () => {
                 social-distancing lockdown to reclaim what belongs to us. We're
                 counting on you!
               </Card.Text>
-              <Button>Read More</Button>
+              <Button className="readmore-btn">Read More</Button>
             </Card.Body>
           </Card>
         </CardDeck>

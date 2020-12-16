@@ -24,3 +24,15 @@
     text-align: justify;
     height: 6em;
 }
+
+.readmore-btn {
+    background-color: #30475e;
+    border: none;
+}
+
+.readmore-btn:hover,
+.readmore-btn:focus {
+    background-color: #f05454 !important;
+    border: none;
+    box-shadow: none !important;
+}
