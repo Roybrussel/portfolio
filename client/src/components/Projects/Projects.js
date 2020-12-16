@@ -1,8 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Button, Container, CardDeck, Card } from "react-bootstrap/";
 
 const Projects = () => {
   return (
@@ -12,7 +10,59 @@ const Projects = () => {
         <hr />
       </div>
       <Container fluid className="projects-container">
-        <Row></Row>
+        <CardDeck>
+          <Card className="project-card">
+            <Card.Img
+              variant="top"
+              src="images/fjordadventures.png"
+              alt="fjordadventures-img"
+              className="project-img"
+            />
+            <Card.Body>
+              <Card.Title>Fjord Adventures</Card.Title>
+              <Card.Text className="card-text">
+                Fjord Adventures is making sure that you will get the full
+                experience that Norway has to offer. Get the most out of your
+                visit to Norway by booking exciting activities!
+              </Card.Text>
+              <Button>Read More</Button>
+            </Card.Body>
+          </Card>
+          <Card className="project-card">
+            <Card.Img
+              variant="top"
+              src="images/travelboard.png"
+              alt="travelboard-img"
+              className="project-img"
+            />
+            <Card.Body>
+              <Card.Title>Travel Board</Card.Title>
+              <Card.Text className="card-text">
+                A platform where users can share all of their adventures by
+                creating a travel board. Find out what other users have been up
+                to through the discover page.
+              </Card.Text>
+              <Button>Read More</Button>
+            </Card.Body>
+          </Card>
+          <Card className="project-card">
+            <Card.Img
+              variant="top"
+              src="images/captaincovid.png"
+              alt="captaincovid-img"
+              className="project-img"
+            />
+            <Card.Body>
+              <Card.Title>Captain Covid</Card.Title>
+              <Card.Text className="card-text">
+                Your mission is clear, Captain: Emerge from your
+                social-distancing lockdown to reclaim what belongs to us. We're
+                counting on you!
+              </Card.Text>
+              <Button>Read More</Button>
+            </Card.Body>
+          </Card>
+        </CardDeck>
       </Container>
     </section>
   );
