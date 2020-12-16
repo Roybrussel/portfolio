@@ -3,6 +3,8 @@ import "./About.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 const About = () => {
+  const CONTACT_EMAIL = process.env.CONTACT_EMAIL;
+
   return (
     <section id="about-section">
       <div className="heading">
@@ -44,9 +46,23 @@ const About = () => {
                   Connect <i class="fas fa-hashtag" />
                 </h3>
                 <p>
-                  <i className="fab fa-linkedin about-icon" />
-                  <i className="fab fa-github-square about-icon" />
-                  <i className="fas fa-envelope-square about-icon" />
+                  <a
+                    href="https://www.linkedin.com/in/roy-arne-brussel/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-linkedin about-icon" />
+                  </a>
+                  <a
+                    href="https://github.com/Roybrussel"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github-square about-icon" />
+                  </a>
+                  <a href={`mailto:${CONTACT_EMAIL}`}>
+                    <i className="fas fa-envelope-square about-icon" />
+                  </a>
                 </p>
               </div>
             </div>
