@@ -41,7 +41,7 @@ const Projects = () => {
               <Card.Title>Travel Board</Card.Title>
               <Card.Text className="card-text">
                 A platform where users can share all of their adventures by
-                creating a travel board. Find out what other users have been up
+                creating travel boards. Find out what other users have been up
                 to through the discover page.
               </Card.Text>
             </Card.Body>
