@@ -27,7 +27,20 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer className="card-footer">
-              <Button className="readmore-btn">Read More</Button>
+              <Button
+                className="project-btn"
+                href="https://fjord-adventures.herokuapp.com/"
+                target="_blank"
+              >
+                Project
+              </Button>
+              <Button
+                className="project-btn"
+                href="https://github.com/Roybrussel/fjord-adventures"
+                target="_blank"
+              >
+                Github
+              </Button>
             </Card.Footer>
           </Card>
           <Card className="project-card">
@@ -46,7 +59,20 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer className="card-footer">
-              <Button className="readmore-btn">Read More</Button>
+              <Button
+                className="project-btn"
+                href="https://travelboard-ironhack.herokuapp.com/"
+                target="_blank"
+              >
+                Project
+              </Button>
+              <Button
+                className="project-btn"
+                href="https://github.com/Roybrussel/travel-board"
+                target="_blank"
+              >
+                Github
+              </Button>
             </Card.Footer>
           </Card>
           <Card className="project-card">
@@ -65,7 +91,20 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer className="card-footer">
-              <Button className="readmore-btn">Read More</Button>
+              <Button
+                className="project-btn"
+                href="https://roybrussel.github.io/captain-covid-ironhack/"
+                target="_blank"
+              >
+                Project
+              </Button>
+              <Button
+                className="project-btn"
+                href="https://github.com/Roybrussel/captain-covid-ironhack"
+                target="_blank"
+              >
+                Github
+              </Button>
             </Card.Footer>
           </Card>
         </CardDeck>

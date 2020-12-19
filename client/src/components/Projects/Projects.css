@@ -25,18 +25,27 @@
 }
 
 .card-footer {
+    display: flex;
+    justify-content: flex-start;
     background-color: none !important;
     border: none;
 }
 
-.readmore-btn {
+.project-btn {
     background-color: #30475e;
     border: none;
+    width: 5em;
+    margin-right: 1em;
 }
 
-.readmore-btn:hover,
-.readmore-btn:focus {
+.project-btn:hover {
     background-color: #f05454 !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+.project-btn:focus {
+    background-color: #30475e;
     border: none;
     box-shadow: none !important;
 }
