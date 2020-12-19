@@ -31,6 +31,10 @@ hr {
     margin: 0 50px;
 }
 
+.language-container {
+    margin-top: 3em;
+}
+
 .about-icon {
     font-size: 3em;
     margin: 10px;

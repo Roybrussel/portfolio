@@ -13,7 +13,7 @@ const Navigationbar = () => {
         <Nav.Link href="#projects-section" className="navlink">
           Projects
         </Nav.Link>
-        <Nav.Link href="#contact-section" className="navlink">
+        <Nav.Link href="#about-section" className="navlink">
           Contact
         </Nav.Link>
       </Nav>
