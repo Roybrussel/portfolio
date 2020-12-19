@@ -16,16 +16,19 @@ const About = () => {
           <Col md={7} className="about-content">
             <div>
               <div className="about-text">
+                <h3>Web Developer.</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                  vel ipsum tempus turpis pulvinar vehicula. Donec id lorem
-                  vitae arcu eleifend efficitur. Quisque luctus, magna faucibus
-                  porttitor sagittis, diam nunc fringilla massa, non congue quam
-                  ante nec ante. Praesent venenatis sit amet ex id aliquet.
-                  Suspendisse potenti. Nunc neque tortor, semper nec dapibus
-                  sed, porttitor eget arcu. Vestibulum ante ipsum primis in
-                  faucibus orci luctus et ultrices posuere cubilia curae; In
-                  vitae augue tristique nunc maximus imperdiet.
+                  I am Roy-Arne Brussel, a 28 year old from The Netherlands.
+                  Graduated from Ironhack in Amsterdam as a Full Stack Developer
+                  in 2020. As a creative person I have a preference for the
+                  frontend side of web development. Being able to visualize an
+                  idea and turn it into a fully fledged application that is
+                  pleasing to the eye is really mesmerizing to me.
+                  <br />
+                  <br />
+                  Besides being a developer, I also like to travel the world and
+                  as a half Norwegian I have a profound love for Norway as a
+                  country.
                 </p>
               </div>
               <div className="language-container">

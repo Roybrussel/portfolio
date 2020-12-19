@@ -13,9 +13,6 @@ const Navigationbar = () => {
         <Nav.Link href="#projects-section" className="navlink">
           Projects
         </Nav.Link>
-        <Nav.Link href="#contact-section" className="navlink">
-          Contact
-        </Nav.Link>
       </Nav>
     </Navbar>
   );
