@@ -63,7 +63,7 @@ const About = () => {
                   >
                     <i className="fab fa-github-square about-icon" />
                   </a>
-                  <a href={`mailto:${CONTACT_EMAIL}`}>
+                  <a href={`mailto:${process.env.CONTACT_EMAIL}`}>
                     <i className="fas fa-envelope-square about-icon" />
                   </a>
                 </p>
