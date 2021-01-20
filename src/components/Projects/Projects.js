@@ -5,6 +5,9 @@ import { Container, CardDeck } from "react-bootstrap/";
 import Fjordadventures from "./fjordadventures/fjordadventures";
 import Travelboard from "./travelboard/travelboard";
 import Captaincovid from "./captaincovid/captaincovid";
+import Worldwidewebprovider from "./worldwidewebprovider/worldwidewebprovider";
+import Simongame from "./simongame/simongame";
+import Reveraclone from "./reveraclone/reveraclone";
 
 const Projects = () => {
   return (
@@ -14,13 +17,15 @@ const Projects = () => {
         <hr />
       </div>
       <Container fluid className="projects-container">
-        <CardDeck>
+        <CardDeck className="card-deck">
           <Fjordadventures />
           <Travelboard />
           <Captaincovid />
-          <Fjordadventures />
-          <Travelboard />
-          <Captaincovid />
+        </CardDeck>
+        <CardDeck className="card-deck">
+          <Worldwidewebprovider />
+          <Simongame />
+          <Reveraclone />
         </CardDeck>
       </Container>
     </section>

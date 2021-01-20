@@ -4,6 +4,10 @@
     margin: 20px;
 }
 
+.card-deck {
+    margin-bottom: 2em;
+}
+
 .project-card {
     -webkit-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
