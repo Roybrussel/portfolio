@@ -14,8 +14,8 @@ const Simongame = () => {
       <Card.Body>
         <Card.Title>Simon Game</Card.Title>
         <Card.Text className="card-text">
-          A Simon Game to test out my jQuery skills. Ready to test out your
-          memory capacity? Press any button to play!
+          A Simon Game to test out my newly acquired jQuery skills. Ready to
+          test out your memory capacity? Press any button to play!
         </Card.Text>
       </Card.Body>
       <Card.Footer className="card-footer">
