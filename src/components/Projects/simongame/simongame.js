@@ -9,7 +9,7 @@ const Simongame = () => {
         variant="top"
         src="images/gamesimon.png"
         alt="simongame-img"
-        className="project-img"
+        className="simongame-img"
       />
       <Card.Body>
         <Card.Title>Simon Game</Card.Title>

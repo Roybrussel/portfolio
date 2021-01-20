@@ -9,7 +9,7 @@ const Fjordadventures = () => {
         variant="top"
         src="images/fjordadventures.png"
         alt="fjordadventures-img"
-        className="project-img"
+        className="fjordadventures-img"
       />
       <Card.Body>
         <Card.Title>Fjord Adventures</Card.Title>

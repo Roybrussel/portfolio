@@ -9,7 +9,7 @@ const Captaincovid = () => {
         variant="top"
         src="images/captaincovid.png"
         alt="captaincovid-img"
-        className="project-img"
+        className="captaincovid-img"
       />
       <Card.Body>
         <Card.Title>Captain Covid</Card.Title>

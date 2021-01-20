@@ -9,7 +9,7 @@ const Travelboard = () => {
         variant="top"
         src="images/travelboard.png"
         alt="travelboard-img"
-        className="project-img"
+        className="travelboard-img"
       />
       <Card.Body>
         <Card.Title>Travel Board</Card.Title>

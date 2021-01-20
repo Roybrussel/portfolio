@@ -9,7 +9,7 @@ const Reveraclone = () => {
         variant="top"
         src="images/reveraclone.png"
         alt="reveraclone-img"
-        className="project-img"
+        className="reveraclone-img"
       />
       <Card.Body>
         <Card.Title>Revera Clone</Card.Title>

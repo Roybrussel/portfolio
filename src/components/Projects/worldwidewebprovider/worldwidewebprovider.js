@@ -9,7 +9,7 @@ const Worldwidewebprovider = () => {
         variant="top"
         src="images/wwwprovider.png"
         alt="worldwidewebprovider-img"
-        className="project-img"
+        className="wwwprovider-img"
       />
       <Card.Body>
         <Card.Title>WorldWideWeb Provider</Card.Title>

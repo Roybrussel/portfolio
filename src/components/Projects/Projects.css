@@ -18,8 +18,12 @@
     transform: scale(1.01);
 }
 
-.project-img {
-    width: 100%;
+.captaincovid-img,
+.fjordadventures-img,
+.reveraclone-img,
+.simongame-img,
+.travelboard-img,
+.wwwprovider-img {
     height: 220px;
     object-fit: cover;
 }
