@@ -1,8 +1,10 @@
 import React from "react";
 import "./Projects.css";
-import { Button, Container, CardDeck, Card } from "react-bootstrap/";
+import { Container, CardDeck } from "react-bootstrap/";
 
 import Fjordadventures from "./fjordadventures/fjordadventures";
+import Travelboard from "./travelboard/travelboard";
+import Captaincovid from "./captaincovid/captaincovid";
 
 const Projects = () => {
   return (
@@ -14,70 +16,8 @@ const Projects = () => {
       <Container fluid className="projects-container">
         <CardDeck>
           <Fjordadventures />
-          <Card className="project-card">
-            <Card.Img
-              variant="top"
-              src="images/travelboard.png"
-              alt="travelboard-img"
-              className="project-img"
-            />
-            <Card.Body>
-              <Card.Title>Travel Board</Card.Title>
-              <Card.Text className="card-text">
-                A platform where users can share all of their adventures by
-                creating travel boards. Find out what other users have been up
-                to through the discover page.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer">
-              <Button
-                className="project-btn"
-                href="https://travelboard-ironhack.herokuapp.com/"
-                target="_blank"
-              >
-                Project
-              </Button>
-              <Button
-                className="project-btn"
-                href="https://github.com/Roybrussel/travel-board"
-                target="_blank"
-              >
-                Github
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card className="project-card">
-            <Card.Img
-              variant="top"
-              src="images/captaincovid.png"
-              alt="captaincovid-img"
-              className="project-img"
-            />
-            <Card.Body>
-              <Card.Title>Captain Covid</Card.Title>
-              <Card.Text className="card-text">
-                Your mission is clear, Captain: Emerge from your
-                social-distancing lockdown to reclaim what belongs to us. We're
-                counting on you!
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer">
-              <Button
-                className="project-btn"
-                href="https://roybrussel.github.io/captain-covid-ironhack/"
-                target="_blank"
-              >
-                Project
-              </Button>
-              <Button
-                className="project-btn"
-                href="https://github.com/Roybrussel/captain-covid-ironhack"
-                target="_blank"
-              >
-                Github
-              </Button>
-            </Card.Footer>
-          </Card>
+          <Travelboard />
+          <Captaincovid />
         </CardDeck>
       </Container>
     </section>
