@@ -18,6 +18,9 @@ const Projects = () => {
           <Fjordadventures />
           <Travelboard />
           <Captaincovid />
+          <Fjordadventures />
+          <Travelboard />
+          <Captaincovid />
         </CardDeck>
       </Container>
     </section>
