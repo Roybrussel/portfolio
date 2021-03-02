@@ -16,7 +16,7 @@ const About = () => {
           <Col md={7} className="about-content">
             <div>
               <div className="about-text">
-                <h3>Web Developer.</h3>
+                <h3>Junior Frontend Developer.</h3>
                 <p>
                   I am Roy-Arne Brussel, a 28 year old from The Netherlands.
                   Graduated from Ironhack in Amsterdam and currently working as a Junior Frontend Developer at ISO2HANDLE. As a creative person I have a preference for the
