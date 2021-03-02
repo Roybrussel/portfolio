@@ -19,8 +19,7 @@ const About = () => {
                 <h3>Web Developer.</h3>
                 <p>
                   I am Roy-Arne Brussel, a 28 year old from The Netherlands.
-                  Graduated from Ironhack in Amsterdam as a Full Stack Developer
-                  in 2020. As a creative person I have a preference for the
+                  Graduated from Ironhack in Amsterdam and currently working as a Junior Frontend Developer at ISO2HANDLE. As a creative person I have a preference for the
                   frontend side of web development. Being able to visualize an
                   idea and turn it into a fully fledged application that is
                   pleasing to the eye is really mesmerizing to me.
